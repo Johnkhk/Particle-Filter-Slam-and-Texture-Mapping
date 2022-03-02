@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+opencv-python = "==4.2.0.34"
+matplotlib = ">=2.2"
+numpy = "*"
+pandas = "*"
+scipy = "*"
+scikit-image = ">=0.14.0"
+tk = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
